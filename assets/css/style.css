@@ -39,7 +39,46 @@ Project:  Merraki
 body{
     font-family: 'Syne', sans-serif;
 }
+/* WhatsApp Button Styles */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+  background: #25D366;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  animation: pulse 2s infinite;
+}
 
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  background: #128C7E;
+}
+
+.whatsapp-btn img {
+  width: 36px;
+  height: 36px;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
 .h1, h1 {
     font-size: 76px;
     line-height: 80px;
@@ -1918,7 +1957,7 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-weight: 500;
-    color: var(--e-global-color-text);
+    /* color: var(--e-global-color-text); */
     background: transparent;
     border: none;
     margin-bottom: 10px;
@@ -1936,9 +1975,9 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-weight: 500;
-    color: var(--e-global-color-text);
+    /* color: var(--e-global-color-text); */
     font-family: 'Montserrat', sans-serif;
-    background: transparent;
+    /* background: transparent; */
     width: 100%;
     height: 108px;
     resize: none;
