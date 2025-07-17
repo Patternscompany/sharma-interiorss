@@ -38,6 +38,7 @@ Project:  Merraki
 
 body{
     font-family: 'Syne', sans-serif;
+    overflow-x: hidden;
 }
 /* WhatsApp Button Styles */
 .whatsapp-btn {
@@ -799,7 +800,10 @@ body {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-
+.step:hover .circle {
+  background-color: var(--e-global-color-accent); /* Change background on hover */
+  color: var(--e-global-color-white); /* Change text color on hover */
+}
 .circle:hover {
   transform: translateY(-3px);
 }
@@ -821,7 +825,7 @@ body {
 }
 
 /* Connecting line */
-.steps::before {
+/* .steps::before {
   content: "";
   position: absolute;
   top: 20px;
@@ -830,6 +834,135 @@ body {
   height: 2px;
   background-color: var(--line-color);
   z-index: 0;
+} */
+
+/* Initial line */
+/* Yellow animated line */
+.steps::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  right: 5%;
+  height: 2px;
+  background-color: #e1b261;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 8s ease;
+  z-index: 0;
+}
+
+/* Trigger animation */
+.steps.animate-line::before {
+  transform: scaleX(1);
+}
+
+/* Loader wrapper covers full screen */
+#loader-wrapperr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Loader animation */
+#loaderr {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #e1b261; /* Gold color */
+  border-top-color: #e1b261;  /* Deep navy */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+/* From Uiverse.io by zanina-yassine */ 
+#container {
+  width: 100px;
+  height: 125px;
+  margin: auto auto;
+}
+
+.loading-title {
+  display: block;
+  text-align: center;
+  font-size: 20;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: #888;
+}
+
+.loading-circle {
+  display: block;
+  border-left: 5px solid;
+  border-top-left-radius: 100%;
+  border-top: 5px solid;
+  margin: 5px;
+  animation-name: Loader_611;
+  animation-duration: 1500ms;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.sp1 {
+  border-left-color: #000000;
+  border-top-color: #000000;
+  width: 40px;
+  height: 40px;
+}
+
+.sp2 {
+  border-left-color: #e1b261;
+  border-top-color: #e1b261;
+  width: 30px;
+  height: 30px;
+}
+
+.sp3 {
+  width: 20px;
+  height: 20px;
+  border-left-color: #000000;
+  border-top-color: #000000;
+}
+
+@keyframes Loader_611 {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: right bottom;
+  }
+
+  25% {
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+  }
+
+  50% {
+    transform: rotate(180deg);
+    transform-origin: right bottom;
+  }
+
+  75% {
+    transform: rotate(270deg);
+    transform-origin: right bottom;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform-origin: right bottom;
+  }
+}
+/* Spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 /* Responsive */

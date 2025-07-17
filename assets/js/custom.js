@@ -40,3 +40,9 @@ const foo = (360 / 7);
 for (i = 0; i <= 7; i++) {
   console.log((i * foo) + 'deg');
 }
+  window.addEventListener('load', () => {
+    const loader = document.getElementById('loader-wrapperr');
+    loader.style.opacity = '0';
+    loader.style.pointerEvents = 'none';
+    setTimeout(() => loader.remove(), 500); // Remove after fade out
+  });
