@@ -1864,10 +1864,11 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 
 .animated-dropdown-section-title {
+  color: #fff !important;
   font-weight: bold;
-  color: #ffe082;
   font-family: 'Georgia', serif;
   font-size: 15px;
   padding: 12px 24px 6px 24px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.18);
   letter-spacing: 0.5px;
 }
