@@ -1862,3 +1862,12 @@ a.item-link{margin-top: 10px; display: inline-block}
     box-shadow: none;
   }
 }
+
+.animated-dropdown-section-title {
+  font-weight: bold;
+  color: #ffe082;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+  padding: 12px 24px 6px 24px;
+  letter-spacing: 0.5px;
+}
