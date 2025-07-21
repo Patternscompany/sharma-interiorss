@@ -1813,6 +1813,9 @@ a.item-link{margin-top: 10px; display: inline-block}
   opacity: 0;
   transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;
 }
+.animated-dropdown:hover .animated-dropdown-menu{
+    display: block;
+}
 .animated-dropdown-menu.show {
   display: block;
   max-height: 800px;
