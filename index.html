@@ -5,9 +5,19 @@
     <!-- /SEO Ultimate -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta charset="utf-8">
-    
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -31,17 +41,6 @@
 <body>
 <!-- Header  -->
 <div class="banner_outer">
-    <!-- Loader -->
-<div id="loader-wrapperr">
-  <div id="container">
-  <span class="loading-circle sp1">
-    <span class="loading-circle sp2">
-      <span class="loading-circle sp3"></span>
-    </span>
-  </span>
-</div>
-</div>
-
     <figure class="light-image mb-0">
         <img src="./assets/images/top-lightimage.png" alt="" class="img-fluid">
     </figure>
@@ -49,7 +48,7 @@
         <div class="main-header">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="./index.html"><figure class="mb-0 banner-logo"><img src="./img/logo.png" alt="" class="img-fluid"></figure></a>
+                    <a class="navbar-brand" href="./index.html"><figure class="mb-0 banner-logo"><img src="./assets/images/logo.png" alt="" class="img-fluid"></figure></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -64,31 +63,31 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./about.html">About</a>
                             </li>
-                           <li class="nav-space nav-item animated-dropdown">
-  <a class="nav-link animated-dropdown-toggle" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background:none;color:#fff;">
-    Services <i class="fa-solid fa-chevron-down" style="font-size: 13px;"></i>
-    </a>
-  <div class="animated-dropdown-menu" aria-labelledby="navbarDropdownMenu">
-    <div style="padding: 0 0 0 0;">
-      <div class="animated-dropdown-section-title">Residential</div>
-      <button class="animated-dropdown-item" onclick="location.href='./residential-interiors.html'"><i class="fa-solid fa-house"></i> Residential Interiors</button>
-      <button class="animated-dropdown-item" onclick="location.href='./renovation.html'"><i class="fa-solid fa-hammer"></i> Renovation</button>
-      <button class="animated-dropdown-item" onclick="location.href='./2d&3d.html'"><i class="fa-solid fa-cube"></i> 2D & 3D Design</button>
-      <div class="animated-dropdown-section-title">Commercial</div>
-      <button class="animated-dropdown-item" onclick="location.href='./commercial.html'"><i class="fa-solid fa-building"></i> Commercial Interiors</button>
-      <button class="animated-dropdown-item" onclick="location.href='./office-design.html'"><i class="fa-solid fa-briefcase"></i> Office Design</button>
-      <button class="animated-dropdown-item" onclick="location.href='./unisex-salon.html'"><i class="fa-solid fa-scissors"></i> Unisex-Salon Design</button>
-      <button class="animated-dropdown-item" onclick="location.href='./tutnkey.html'"><i class="fa-solid fa-key"></i> Turnkey Projects</button>
-      <div style="border-top: 1px solid #f5e6c5; margin: 10px 0 0 0;"></div>
-      <button class="animated-dropdown-item" style="font-weight: bold; text-align: center; color: #fff;" onclick="location.href='./service-detail.html'"><i class="fa-solid fa-list"></i> All Services</button>
-    </div>
-  </div>
-</li>
-<li class="nav-item">
+                               <li class="nav-space nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">Services </a>
+                                <div class="dropdown-menu drop-down-content">
+                                    <ul class="list-unstyled drop-down-pages">
+                                        <li class="nav-item"><a class="dropdown-item nav-link" href="./team.html">Our Team</a></li>
+                                        <li class="nav-item"><a class="dropdown-item nav-link" href="./faq.html">Faq's</a></li>
+                                        <li class="nav-item"><a class="dropdown-item nav-link" href="./service-detail.html">Service Detail</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                           
+                            <li class="nav-item">
                                 <a class="nav-link" href="./portfolio.html">Projects</a>
                             </li>
-                             <li class="nav-item">
-                                <a class="nav-link" href="./blog.html">Blogs</a>
+                            <li class="nav-space nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#" id="navbarDropdownMenu2" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> Blogs </a>
+                                <div class="dropdown-menu drop-down-content">
+                                    <ul class="list-unstyled drop-down-pages">
+                                        <li class="nav-item"><a class="dropdown-item nav-link" href="./blog.html">Blog</a></li>
+                                        <li class="nav-item"><a class="dropdown-item nav-link" href="single-blog.html">Single Blog</a></li>
+                                        <li class="nav-item"><a class="dropdown-item nav-link" href="infinite-scroll.html">Infinite Scroll</a></li>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="nav-space nav-item">
                                 <div class="contact-button">
@@ -312,12 +311,45 @@
                     <figure class="about-image1 mb-0" data-aos="fade-up">
                         <img src="./assets/images/about-image1.png" alt="" class="img-fluid">
                     </figure>
-                                </div>     
+                    <div class="badge c-black" id="badge">
+                        <span class="badge__char"> </span>
+                        <span class="badge__char badge__char1">.</span>
+                        <span class="badge__char"> </span>
+                        <span class="badge__char">S</span>
+                        <span class="badge__char">H</span>
+                        <span class="badge__char">A</span>
+                        <span class="badge__char">R</span>	
+                        <span class="badge__char">M</span>	
+                        <span class="badge__char">A</span>			
+                        <span class="badge__char"> </span>		
+                        <span class="badge__char">I</span>		
+                        <span class="badge__char">N</span>		
+                        <span class="badge__char">T</span>		
+                        <span class="badge__char">E</span>		
+                        <span class="badge__char">R</span>
+                        <span class="badge__char">I</span>		
+                        <span class="badge__char">O</span>
+                        <span class="badge__char">R</span>
+                        <span class="badge__char">S</span>
+                        <span class="badge__char"> </span>
+                        <span class="badge__char">-</span>
+                        <span class="badge__char"> </span>		
+                        <span class="badge__char">S</span>		
+                        <span class="badge__char">I</span>		
+                        <span class="badge__char">N</span>		
+                        <span class="badge__char">C</span>
+                        <span class="badge__char">E</span>		
+                        <span class="badge__char"> </span>
+                        <span class="badge__char">1</span>
+                        <span class="badge__char">9</span>
+                        <span class="badge__char">8</span>		
+                        <span class="badge__char">8</span>
+                        <figure class="about-logoimage mb-0">
+                            <img src="./assets/images/about-logoimage.png" alt="" class="img-fluid">
+                        </figure>
+                    </div> 
+                </div>     
             </div>
-            <a href="https://wa.me/91837416160?text=Hello%20Sharma%20Interiors%2C%20I%E2%80%99d%20like%20to%20inquire%20about%20your%20design%20services." 
-            target="_blank" class="whatsapp-btn">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp">
-            </a>            
             <div class="col-lg-4 col-md-6 col-sm-12 col-12 order-md-2 order-3">
                 <div class="about_content" data-aos="fade-right">
                     <h6>About Us</h6>
@@ -346,9 +378,10 @@
 </section>
 <!-- Process -->
  <section class="service-section">
-     <div class="recentwork_content pb-4 mb-4" data-aos="fade-up">
-                    <h2>How we Work</h2>
-                </div>
+    <div class="process_content">
+      <h2>How <span>We Work</span></h2>
+    </div>
+
     <div class="steps">
       <div class="step">
         <div class="circle">1</div>
@@ -389,46 +422,227 @@
     </div>
   </section>
 
-
-
-  
 <!-- Successful work -->
-<section class="work-section">
+ <section class="work-section">
+    <h1 class="why-choose text-center text-warning mb-5">Why Choose Us</h1>
+
     <figure class="light-image mb-0">
         <img src="./assets/images/top-lightimage.png" alt="" class="img-fluid">
     </figure>
+
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="work_content">
-                    <div class="year">
-                        <span class="value counter">10</span>
-                        <sup class="mb-0 plus">+</sup>
-                    </div>
-                    <h2>Years of Successful Work in Market</h2>
-                    <div class="discover-button">
-                        <a class="discover_more text-decoration-none" href="./portfolio.html">Discover More</a>
-                        <a class="image-button text-decoration-none" href="./portfolio.html">
-                            <figure class="arrow mb-0">
-                                <img src="./assets/images/arrow.png" alt="" class="img-fluid">
-                            </figure>
-                        </a> 
+        <div class="row align-items-center">
+            <!-- Left Content -->
+            <div class="col-lg-6 col-md-12">
+                <h2 class="text-warning mb-4">#1 Interior Designers in Hyderabad</h2>
+                <p class="text-white mb-3">
+                  At Sharma Interiors, we blend artistic vision with practical expertise to deliver stunning interior solutions for both residential and office spaces. Based in Hyderabad, our design philosophy combines modern aesthetics with everyday functionality, ensuring each space is both beautiful and livable. With a reputation built on trust, attention to detail, and a client-first approach, we strive to create interiors that reflect your personality and purpose.
+                </p>
+                <a href="#" class="btn btn-outline-warning mt-3">Know More</a>
+            </div>
+
+            <!-- Right Statistics -->
+            <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">
+                <div class="stats-box p-4 border rounded text-center text-white">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h3 class="text-warning">500 +</h3>
+                            <p>Successful Projects</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h3 class="text-warning">250 +</h3>
+                            <p>Workmanship</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h3 class="text-warning">10 +</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h3 class="text-warning">10 +</h3>
+                            <p>Experienced Designers</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="work_wrapper">
-                    <figure class="work-image mb-0" data-aos="fade-right">
-                        <img src="./assets/images/work-image.jpg" alt="" class="img-fluid">
-                    </figure>
-                    <figure class="work-imagebackground mb-0" data-aos="fade-up">
-                        <img src="./assets/images/work-imagebackground.jpg" alt="" class="img-fluid">
-                    </figure>
-                </div> 
             </div>
         </div>
     </div>
 </section>
+<section class="portfolio-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="subheading" data-aos="fade-right">
+                    <h6>Design Approach</h6>
+                    <p>Designing homes is not just a task — it’s an art. At Sharma Interiors, we are fueled by a passion to turn every vision into a reality. With a deep sense of design and functionality, we craft custom interiors that reflect your style and enhance your everyday living. If you can imagine it, we can bring it to life — beautifully and practically.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-box tabs-options">
+            <ul class="nav nav-tabs">
+                <li><a class="active" data-toggle="tab" href="#all">All</a></li>
+                <li><a data-toggle="tab" href="#residential">Living</a></li>
+                <li><a data-toggle="tab" href="#corporate">Bedroom</a></li>
+                <li><a data-toggle="tab" href="#restaurant">kitchen</a></li>
+                <li><a data-toggle="tab" href="#commercial">Washroom</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="all" class="tab-pane fade in active show">
+                    <div class="row position-relative" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image1.jpg" class="img-fluid" alt="">
+                                </figure>
+                               
+                            </div>
+                        </div>            
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image2.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image3.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="residential" class="tab-pane fade">
+                     <div id="all" class="tab-pane fade in active show">
+                    <div class="row position-relative" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image1.jpg" class="img-fluid" alt="">
+                                </figure>
+                               
+                            </div>
+                        </div>            
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image2.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image3.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                    
+                </div>
+                <div id="corporate" class="tab-pane fade">
+                    <div class="row position-relative" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image1.jpg" class="img-fluid" alt="">
+                                </figure>
+                              
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image2.jpg" class="img-fluid" alt="">
+                                </figure>
+                              
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image3.jpg" class="img-fluid" alt="">
+                                </figure>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="restaurant" class="tab-pane fade">
+                    <div class="row position-relative" data-aos="fade-up">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+                         
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                         
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image1.jpg" class="img-fluid" alt="">
+                                </figure>
+                             
+                            </div>
+                        </div>            
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image2.jpg" class="img-fluid" alt="">
+                                </figure>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image3.jpg" class="img-fluid" alt="">
+                                </figure>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="commercial" class="tab-pane fade">
+                     <div class="row position-relative" data-aos="fade-up">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+                         
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                         
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image1.jpg" class="img-fluid" alt="">
+                                </figure>
+                             
+                            </div>
+                        </div>            
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image2.jpg" class="img-fluid" alt="">
+                                </figure>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <div class="image">
+                                <figure class="tab-image mb-0">
+                                    <img src="./assets/images/tab-image3.jpg" class="img-fluid" alt="">
+                                </figure>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!-- Recent work -->
 <section class="recentwork-section">
     <div class="container-fluid">
@@ -508,7 +722,7 @@
             <div class="col-12">
                 <div class="testimonial_content" data-aos="fade-right">
                     <h6>Testimonials</h6>
-                    <h2>What Our Happy Clients Say About Sharma Interiors</h2>
+                    <h2>Hear What Our Happy Clients Say About Us</h2>
                 </div>
             </div>
         </div>
@@ -749,7 +963,7 @@
                                     <img src="./assets/images/blog-image2.jpg" class="img-fluid" alt="">
                                 </figure>
                                 <div class="box-content">
-                                    <!-- <span class="text-size-16">Apr 19, 2021</span> -->
+                                    <span class="text-size-16">Apr 19, 2021</span>
                                     <h5 class="text-white">Funiture Decorative</h5>
                                     <p class="text-size-18 mb-0">When it comes to interior design, furniture and decorative elements are not just accessories—they define the soul of a space...</p>
                                 </div> 
@@ -761,7 +975,7 @@
                                     <img src="./assets/images/blog-image3.jpg" class="img-fluid" alt="">
                                 </figure>
                                 <div class="box-content">
-                                    <!-- <span class="text-size-16">June 22, 2021</span> -->
+                                    <span class="text-size-16">June 22, 2021</span>
                                     <h5 class="text-white">Interior Design</h5>
                                     <p class="text-size-18 mb-0">In the world of design, interiors are more than just walls and furniture—they’re stories in structure...</p>
                                 </div>
@@ -773,13 +987,13 @@
                                     <img src="./assets/images/blog-image1.jpg" class="img-fluid" alt="">
                                 </figure>
                                 <div class="box-content">
-                                    <!-- <span class="text-size-16">Mar 20, 2021</span> -->
+                                    <span class="text-size-16">Mar 20, 2021</span>
                                     <h5 class="text-white">Home Building</h5>
                                     <p class="text-size-18 mb-0">Building a home is more than bricks and beams—it’s about turning your dreams into reality...</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="item">
+                        <div class="item">
                             <div class="image">
                                 <figure class="mb-0">
                                     <img src="./assets/images/blog-image2.jpg" class="img-fluid" alt="">
@@ -802,7 +1016,7 @@
                                     <p class="text-size-18 mb-0">Our mission is to show how we are making each homes more beautiful with easy-life tips and photos for any range of budgets...</p>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <!-- <div class="item">
                             <div class="image">
                                 <figure class="mb-0">
@@ -854,7 +1068,7 @@
                     <div class="logo-content">
                         <a href="./index.html">
                             <figure class="footer-logo">
-                                <img src="./img/logo.png" class="img-fluid" alt="">
+                                <img src="./assets/images/logo.png" class="img-fluid" alt="">
                             </figure>
                         </a>
                         <h3 class="text-white">Want to Create Something Great Together?</h3>
@@ -909,9 +1123,7 @@
                                 <button><i class="send fa-sharp fa-solid fa-paper-plane"></i></button>
                             </div>
                         </form>
-                        <!-- <ul class="list-unstyled mb-0">
-                            <li class="text"><i class="circle fa-duotone fa-check"></i>Quis autem vel eum iure reprehenderit rui in ea voluptate velit esse.</li>
-                        </ul> -->
+                        <!-- -->
                         <div class="social-icons position-relative">
                             <ul class="list-unstyled mb-0 p-0 position-absolute">
                                 <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook social-networks"></i></a></li>
@@ -940,17 +1152,6 @@
     </div>
 </section>
 <!-- Latest compiled JavaScript -->
- <!-- <script>
-  // Create WhatsApp button
-  const whatsappBtn = document.createElement('a');
-  whatsappBtn.href = "https://wa.me/919999999999?text=Hello%20Sharma%20Interiors%2C%20I%E2%80%99d%20like%20to%20inquire%20about%20your%20design%20services.";
-  whatsappBtn.target = "_blank";
-  whatsappBtn.className = "whatsapp-btn";
-  whatsappBtn.innerHTML = '<img src="./assets/images/whatsapp-icon.png" alt="WhatsApp">';
-  
-  // Add to body
-  document.body.appendChild(whatsappBtn);
-</script> -->
 <script src="assets/js/jquery-3.6.0.min.js"> </script>
 <script src="assets/js/bootstrap.min.js"> </script>
 <script src="assets/js/video_link.js"></script>
@@ -961,26 +1162,5 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/animation_links.js"></script>
 <script src="assets/js/animation.js"></script>
-
-<script>
-  const steps = document.querySelector('.steps');
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        steps.classList.add('animate-line');
-        observer.unobserve(steps); // Optional: Run only once
-      }
-    });
-  }, {
-    threshold: 0.4,
-  });
-
-  if (steps) {
-    observer.observe(steps);
-  }
-</script>
-
-
 </body>
 </html>
