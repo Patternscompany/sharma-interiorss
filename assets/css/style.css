@@ -327,7 +327,8 @@ p {
 .banner_outer .social-icons{
     margin-left: 232px;
     top: 135px;
-    z-index: 1;
+    z-index: 99;
+
 }
 .banner_outer .social-icons .line{
     position: absolute;
@@ -352,12 +353,13 @@ p {
 }
 .banner-section {
     position: relative;
-    padding: 135px 200px 60px 215px;
+    /* padding: 135px 200px 60px 215px; */
 }
 .banner-section .banner-backgroundimage{
-    position: absolute;
-    top: 0;
-    right: 0;
+    /* position: absolute; */
+    /* top: 0;
+    right: 0; */
+    width:100%;
 }
 .banner-section .banner_content{
     position: relative;
@@ -409,9 +411,10 @@ p {
 }
 .banner-section .owl-carousel .owl-dots {
     position: relative;
-    margin-top: 120px !important;
-    float: left;
-    left: -6px;
+    /* margin-top: 120px !important; */
+    /* float: ; */
+    /* left: -6px; */
+    margin-top: -3rem;
 }
 .banner-section .owl-carousel .owl-dots .owl-dot span {
     width: 15px;
@@ -745,7 +748,6 @@ body {
   margin: 0;
   font-family: var(--font);
   background-color: #ffffff;
-  text-align: center;
   padding: 40px 20px;
 }
 
@@ -1710,6 +1712,7 @@ body {
     position: absolute;
     top: 0;
     left: 28px;
+    z-index:2;
 }
 .sub-banner .header {
     padding: 0 216px;
@@ -1717,7 +1720,8 @@ body {
 }
 .sub-banner .banner-section {
     position: relative;
-    padding: 132px 200px 0 215px;
+    height:100vh;
+    /* padding: 132px 200px 0 215px; */
 }
 .sub-banner .banner-section .banner_content {
     position: relative;

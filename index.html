@@ -143,6 +143,7 @@
                     </div>
                 </div>
             </header>
+              </div>
             <div class="social-icons position-relative">
                 <figure class="line">
                     <img src="./assets/images/line-image.png" alt="" class="img-fluid">
@@ -159,14 +160,11 @@
                 </ul>
             </div>
             <section class="banner-section">
-                <figure class="banner-backgroundimage mb-0">
-                    <img src="./assets/images/banner-backgroundimage.jpg" alt="" class="img-fluid">
-                </figure>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 p-0">
                             <div class="owl-carousel owl-theme">
-                                <div class="item">
+                                <div class="item first" >
                                     <div class="banner_content">
                                         <div class="content">
                                             <h1>Meticulous Planning and Design With Our Modern Interior Designs</h1>
@@ -183,7 +181,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
+                                <div class="item second">
                                     <div class="banner_content">
                                         <div class="content">
                                             <h1>Design each room thoughtfully </h1>
@@ -200,7 +198,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
+                                <div class="item last">
                                     <div class="banner_content">
                                         <div class="content">
                                             <h1>Utilize modular kitchens and wardrobes</h1>
@@ -219,13 +217,47 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-4 col-md-12 col-sm-12 col-12 d-lg-block d-none">
-                        </div>
+                        <!-- <div class="col-xl-6 col-lg-4 col-md-12 col-sm-12 col-12 d-lg-block d-none">
+                        </div> -->
                     </div>
                 </div>
             </section>
-        </div>
+      
         <!-- Services -->
+
+        <style>
+            .banner-section .container-fluid .item .banner_content {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             top:50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+                padding-inline:4rem;
+            }
+            .banner-section{
+                text-align: center;
+                height:100vh;
+            }
+            .banner-section .container-fluid .item{
+                height:100vh;
+                width:100%;
+      
+            }
+            .banner-section .container-fluid .item.first {
+                background: url(./assets/images/journey-backgroundimage.jpg) no-repeat center center/cover;
+            }
+            .banner-section .container-fluid .item.second {
+                background: url(./assets/images/banner-backgroundimage.jpg) no-repeat center center/cover;
+            }
+            .banner-section .container-fluid .item.last{
+                background: url(./assets/images/journey-backgroundimage.jpg) no-repeat center center/cover;
+            }
+        </style>
+
         <section class="service-section">
             <div class="container">
                 <div class="row">

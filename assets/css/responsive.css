@@ -43,10 +43,10 @@ h2 {font-size: 42px; line-height: 54px;}
 .navbar-nav .drop-down-pages .nav-item a {letter-spacing: 0;}
 .navbar-nav .contact_us {margin-left: 85px;}
 .banner_outer .social-icons {top: 60px;}
-.banner-section {padding: 30px 60px 60px 120px;}
-.banner-section .banner-backgroundimage img{width: 677px;}
+/* .banner-section {padding: 30px 60px 60px 120px;} */
+.banner-section .banner-backgroundimage img{width: 100%;}
 .banner-section .banner_content p {margin-right: 70px;}
-.banner-section .owl-carousel .owl-dots {margin-top: 40px !important;}
+/* .banner-section .owl-carousel .owl-dots {margin-top: 40px !important;} */
 .service-section {padding: 120px 0;}
 .service-section .service_content h2 {padding: 0 200px;}
 .about-section {padding: 120px 0;}
@@ -81,7 +81,7 @@ h2 {font-size: 42px; line-height: 54px;}
 .sub-banner .light-image {left: 16px;}
 .sub-banner .light-image img{width: 110px;}
 .sub-banner .header {padding: 0px 36px;}
-.sub-banner .banner-section {padding: 100px 60px 0 60px;}
+/* .sub-banner .banner-section {padding: 100px 60px 0 60px;} */
 .sub-banner .banner-section .banner_content p {margin-right: 0;}
 .sub-banner .banner-section .banner_wrapper {margin-top: -50px; margin-left: 0;}
 /* Faq */
@@ -144,14 +144,14 @@ p {font-size: 18px; line-height: 24px;}
 .navbar-nav li:last-child {margin-left: 2px;}
 .navbar-nav .contact_us {margin-left: 30px;}
 .navbar-nav .contact-button .arrow {width: 58px; height: 58px; line-height: 55px;}
-.banner-section {padding: 60px 50px 96px 100px;}
-.banner-section .banner-backgroundimage img {width: 595px;}
+/* .banner-section {padding: 60px 50px 96px 100px;} */
+.banner-section .banner-backgroundimage img {width:100%;}
 .banner-section .banner_content {margin-right: 105px;}
 .banner-section .banner_content h1 {margin-bottom: 10px;}
 .banner-section .banner_content p {font-size: 20px; line-height: 32px; margin-right: 0; margin-bottom: 35px;}
 .banner-section .discover_more {font-size: 18px; line-height: 22px; margin-right: 10px;}
 .banner-section .discover-button .arrow {width: 58px; height: 58px; line-height: 54px;}
-.banner-section .owl-carousel .owl-dots {margin-top: 30px !important;}
+/* .banner-section .owl-carousel .owl-dots {margin-top: 30px !important;} */
 .banner-section .owl-carousel .owl-dots .owl-dot span {width: 13px; height: 13px;}
 .banner-section .owl-carousel .owl-dots .owl-dot.active span {width: 16px; height: 16px;}
 .service-section {padding: 95px 0;}
@@ -415,7 +415,7 @@ button:focus { outline: none;}
 .banner_outer .social-icons {display: none;}
 .banner-section {padding: 0 0 65px 0; text-align: center;}
 .banner-section .banner-backgroundimage {position: relative; margin-bottom: 30px !important;}
-.banner-section .banner-backgroundimage img{width: 89%;}
+.banner-section .banner-backgroundimage img{width: 100%;}
 .banner-section .banner_content {margin-right: 0; padding: 0 60px;}
 .banner-section .banner_content h1 {margin-bottom: 10px;}
 .banner-section .banner_content p {font-size: 18px; line-height: 22px; padding: 0 100px; margin-bottom: 30px;}
@@ -650,9 +650,9 @@ p {font-size: 14px; line-height: 22px;}
 .banner_outer .header {padding: 0 10px; z-index: 2;}
 .navbar-collapse {width: 40%; top: 74px;}
 .navbar-nav .drop-down-pages .nav-item a {white-space: break-spaces;}
-.banner-section {padding: 0 0 55px 0;}
+/* .banner-section {padding: 0 0 55px 0;} */
 .banner-section .banner-backgroundimage {margin-bottom: 25px !important;}
-.banner-section .banner-backgroundimage img {width: 92%;}
+.banner-section .banner-backgroundimage img {width: 100%;}
 .banner-section .banner_content h1 {margin-bottom: 8px;}
 .banner-section .banner_content p {font-size: 16px; line-height: 22px; padding: 0; margin-bottom: 25px;}
 .banner-section .discover_more {font-size: 14px; line-height: 20px;}
@@ -757,7 +757,7 @@ p {font-size: 14px; line-height: 22px;}
 .footer-section .copyright {padding: 12px 0px;}
 /* Sub-banner */
 .sub-banner .header {padding: 0 10px; z-index: 2;}
-.sub-banner .banner-section {padding-bottom: 60px;}
+/* .sub-banner .banner-section {padding-bottom: 60px;} */
 .sub-banner .banner-section .banner_content h1 {margin-bottom: 12px;}
 .sub-banner .banner-section .banner_content p {font-size: 16px; line-height: 24px; padding: 0 15px;}
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage {margin-bottom: 25px !important;}
