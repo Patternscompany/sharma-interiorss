@@ -255,7 +255,7 @@ p {font-size: 18px; line-height: 24px;}
 .sub-banner .light-image img{width: 90px;}
 .sub-banner .header .banner-logo img {width: 160px;}
 .sub-banner .header {padding: 0 15px;}
-.sub-banner .banner-section {padding: 60px 45px 0 45px;}
+.sub-banner .banner-section {padding: 60px 4rem 0 4rem;}
 .sub-banner .banner-section .banner-column{display: flex; align-items: center;}
 .sub-banner .banner-section .banner_content h1 {margin-bottom: 10px;}
 .sub-banner .banner-section .banner_content p {font-size: 18px; line-height: 26px; margin-bottom: 25px;}
@@ -535,7 +535,7 @@ button:focus { outline: none;}
 .sub-banner .header {padding: 0 30px;}
 .sub-banner .light-image {display: none;}
 .sub-banner .header .banner-logo img {width: 150px;}
-.sub-banner .banner-section {padding: 0 0 68px 0;}
+.sub-banner .banner-section {padding: 0 4rem 68px 4rem;}
 .sub-banner .banner-section .banner_content .box .dash {margin: 0 8px;}
 .sub-banner .banner-section .banner_wrapper {margin-top: 0;}
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage {right: 0; margin-bottom: 30px !important;}

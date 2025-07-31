@@ -54,6 +54,27 @@ document.addEventListener('DOMContentLoaded', function() {
   var dropdownItems = document.querySelectorAll('.animated-dropdown-item');
 
   if (dropdownToggle && dropdownMenu && dropdownItems.length) {
+    // Handle hover events for better dropdown functionality
+    dropdownToggle.addEventListener('mouseenter', function() {
+      dropdownMenu.classList.add('show');
+      // Animate items one by one
+      dropdownItems.forEach(function(item, idx) {
+        item.classList.remove('show');
+        setTimeout(function() {
+          item.classList.add('show');
+        }, idx * 120);
+      });
+    });
+
+    // Handle mouse leave to close dropdown
+    dropdownToggle.parentElement.addEventListener('mouseleave', function() {
+      dropdownMenu.classList.remove('show');
+      dropdownItems.forEach(function(item) {
+        item.classList.remove('show');
+      });
+    });
+
+    // Also handle click for mobile devices
     dropdownToggle.addEventListener('click', function(e) {
       e.preventDefault();
       // Toggle dropdown
@@ -72,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       }
     });
+
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
       if (!dropdownMenu.contains(e.target) && !dropdownToggle.contains(e.target)) {
