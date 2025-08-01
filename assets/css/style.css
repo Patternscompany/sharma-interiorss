@@ -137,10 +137,7 @@ p {
 /* Home Page Style */
 
 .banner_outer{
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
 }
 .banner_outer .light-image{
@@ -442,10 +439,7 @@ p {
 /* Services */
 
 .service-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 145px 0;
 }
@@ -571,10 +565,7 @@ p {
 /* About us */
 
 .about-section{
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     padding: 200px 0 158px;
     position: relative;
 }
@@ -1003,10 +994,7 @@ body {
 /* Work */
 
 .work-section{
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     padding: 94px 0 174px;
     position: relative;
 }
@@ -1021,7 +1009,7 @@ body {
 .work-section .work_content .year::before{
     content: "";
     position: absolute;
-    background: url(../images/blog-image1.jpg);
+    background: transparent;
     height: 100%;
     width: 67%;
     right: 178px;
@@ -1106,10 +1094,7 @@ body {
 /* Recent work */
 
 .recentwork-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     overflow: hidden;
     padding: 142px 0 140px;
@@ -1232,10 +1217,7 @@ body {
 /* Testimonial */
 
 .testimonial-section{
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 142px 0 140px;
 }
@@ -1349,17 +1331,14 @@ body {
 /* Journey */
 
 .journey-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 185px 0 145px;
 }
 .journey-section::before{
     content: "";
     position: absolute;
-    background: url(../images/journey-backgroundimage.jpg);
+    background: transparent;
     opacity: 30%;
     width: 100%;
     height: 700px;
@@ -1424,10 +1403,7 @@ body {
 /* Blog */
 
 .blog-section{
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 142px 0 150px;
 }
@@ -1504,10 +1480,7 @@ body {
 /* Footer */
 
 .footer-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding-top: 110px;
 }
@@ -1702,10 +1675,7 @@ body {
 /* Sub-banner */
 
 .sub-banner{
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
 }
 .sub-banner .light-image{
@@ -1761,10 +1731,7 @@ body {
 /* Faq Page */
 
 .faq-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 142px 0 120px;
 }
@@ -1845,10 +1812,7 @@ body {
 /* Team Page */
 
 .team-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 142px 0 120px;
 }
@@ -1918,10 +1882,7 @@ body {
 /* Service Page */
 
 .servicepage-section {
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 150px 0 120px;
 }
@@ -2002,10 +1963,7 @@ body {
 /* Contact Page */
 
 .contactinfo-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 142px 0 150px;
 }
@@ -2050,7 +2008,7 @@ body {
     color: var(--e-global-color-accent);
 }
 .contact-section{
-    background: url(../images/banner-background.jpg);
+    background: transparent;
     padding: 150px 0 143px;
     position: relative;
 }
@@ -2174,10 +2132,7 @@ max-width:500px;
 /* About Page */
 
 .aboutpage-section {
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 160px 0 166px;
 }
@@ -2277,10 +2232,7 @@ max-width:500px;
     right: -60px;
 }
 .partner-section{
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 142px 0 140px;
 }
@@ -2338,10 +2290,7 @@ max-width:500px;
 /* Portfolio Page */
 
 .portfolio-section{
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
     padding: 142px 0 120px;
 }
@@ -2446,10 +2395,7 @@ max-width:500px;
 
 .service_detail {
     padding: 130px 0 120px;
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     position: relative;
 }
 .service_detail .main-box {
@@ -2498,10 +2444,7 @@ max-width:500px;
     color: var(--e-global-color-black);
 }
 .servicedetail-page {
-    background: url(../images/banner-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
 }
 
 @media (max-width: 768px) {

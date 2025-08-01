@@ -1,7 +1,7 @@
 body {
 	margin:0;
 	padding:0;
-	background: repeat-x top #fff;
+	background: repeat-x top #f6dbdb;
 }
 a {
 	outline:none;
@@ -415,10 +415,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 /* Blog Page */
 
 .blogpage-section {
-    background: url(../images/service-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
     padding: 120px 0;
 }
 .blogpage-section .blog_content {
@@ -1726,7 +1723,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 .traditional-dropdown {
   min-width: 420px;
   padding: 20px 25px 10px 25px;
-  background: #fff8e1 url('https://www.transparenttextures.com/patterns/arabesque.png'); /* Subtle pattern */
+  background: transparent;
   border: 2px solid #bfa14a;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(191,161,74,0.15);
