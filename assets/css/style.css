@@ -439,7 +439,7 @@ p {
 /* Services */
 
 .service-section{
-    background: transparent;
+    background:lightgray;
     position: relative;
     padding: 145px 0;
 }
@@ -1480,7 +1480,7 @@ body {
 /* Footer */
 
 .footer-section{
-    background: transparent;
+    background: var(--e-global-color-very-dark-mostly-black-blue);
     position: relative;
     padding-top: 110px;
 }
@@ -2132,7 +2132,7 @@ max-width:500px;
 /* About Page */
 
 .aboutpage-section {
-    background: transparent;
+    background: lightgrey;
     position: relative;
     padding: 160px 0 166px;
 }
@@ -2499,7 +2499,7 @@ max-width:500px;
 }
 
 .work-section {
-    background-color: #0f0d0d; /* keep same dark background */
+    background-color: var(--e-global-color-very-dark-mostly-black-blue); /* keep same dark background */
     padding: 80px 0;
     color: #fff;
 }

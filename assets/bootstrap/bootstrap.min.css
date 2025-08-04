@@ -11265,7 +11265,7 @@ a.text-info:hover {
 }
 
 .text-warning {
-    color: #ffc107 !important
+    color: var(--e-global-color-accent) !important
 }
 
 a.text-warning:focus,
